@@ -1,0 +1,162 @@
+/* src/assets/styles/auth.css */
+.auth-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #69247C;
+  margin-bottom: 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-group label {
+  font-size: 0.9rem;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #69247C;
+  box-shadow: 0 0 0 2px rgba(105, 36, 124, 0.2);
+}
+
+.forgot {
+  text-align: right;
+  margin-top: 0.25rem;
+}
+
+.forgot a {
+  color: #69247C;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.forgot a:hover {
+  color: #5a1d6a;
+  text-decoration: underline;
+}
+
+.sign-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #69247C;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 0.5rem;
+}
+
+.sign-button:hover {
+  background-color: #5a1d6a;
+}
+
+.social-message {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #e2e8f0;
+}
+
+.message {
+  padding: 0 1rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #e2e8f0;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.icon:hover {
+  background-color: #f7fafc;
+  border-color: #cbd5e0;
+}
+
+.icon svg {
+  width: 20px;
+  height: 20px;
+  fill: #69247C;
+}
+
+.auth-redirect {
+  text-align: center;
+  color: #718096;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.auth-redirect a {
+  color: #69247C;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.auth-redirect a:hover {
+  color: #5a1d6a;
+  text-decoration: underline;
+}
